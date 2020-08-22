@@ -1,13 +1,13 @@
 [package]
-name = "bufstream"
-version = "0.1.4"
-authors = ["The Rust Project Developers"]
+name = "buf_stream"
+version = "0.2.0"
+authors = ["Alex DeLorenzo"]
 license = "MIT/Apache-2.0"
-repository = "https://github.com/alexcrichton/bufstream"
-homepage = "https://github.com/alexcrichton/bufstream"
-documentation = "https://docs.rs/bufstream"
+repository = "https://github.com/alexdelorenzo/buf_stream"
+homepage = "https://github.com/alexdelorenzo/buf_stream"
+documentation = "https://alexdelorenzo.dev"
 description = """
-Buffered I/O for streams where each read/write half is separately buffered
+Buffered I/O for streams where each read/write half is separately buffered. Fork of bufstream.
 """
 
 [dependencies.futures]
